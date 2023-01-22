@@ -1,0 +1,7 @@
+<div class="container mt-5">
+  <%= @flat.name %>
+  <%= @flat.description %>
+  <%= @flat.address %>
+  <%= @flat.price %> €/nuit
+  <%= link_to "Réserver Maintenant", new_flat_booking_path(@flat) %>
+</div>

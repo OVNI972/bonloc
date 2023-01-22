@@ -1,0 +1,5 @@
+Vous avez <%= @bookings.count %> réservations<br><br>
+<% @bookings.each do |booking| %>
+  <%= booking.start_date %>
+  <%= booking.end_date %><br><br>
+<% end %>
